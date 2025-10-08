@@ -1,0 +1,21 @@
+{
+  "Import CSS Module": {
+    "prefix": "imcss",
+    "body": [
+      "import styles from './${TM_FILENAME_BASE}.module.css'"
+    ],
+    "description": "CSS"
+  },
+  "React Component": {
+    "prefix": "rfc",
+    "body": [
+      "export interface ${TM_FILENAME_BASE}Props {",
+      "}",
+      "",
+      "export function ${TM_FILENAME_BASE}({}: ${TM_FILENAME_BASE}Props) {",
+      "  return <div></div>;",
+      "}"
+    ],
+    "description": "React component where the name matches the file name"
+  }
+}
