@@ -35,7 +35,7 @@
     "when": "problemFocus"
   },
   {
-    "key": "ctrl+shift+e", 
+    "key": "ctrl+shift+e",
     "command": "workbench.files.action.focusFilesExplorer",
     "when": "!explorerViewletVisible"
   },
