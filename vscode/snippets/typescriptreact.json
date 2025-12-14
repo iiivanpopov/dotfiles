@@ -81,18 +81,5 @@
       "  return <div>{children}</div>",
       "}"
     ]
-  },
-
-  "Custom Hook": {
-    "prefix": ["hook"],
-    "body": [
-      "export function ${TM_FILENAME_BASE/^(use-)?(.+)$/use${2:/pascalcase}/}() {",
-      "  $0",
-      "",
-      "  return {",
-      "    ",
-      "  }",
-      "}"
-    ]
   }
 }
