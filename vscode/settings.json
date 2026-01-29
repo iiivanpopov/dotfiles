@@ -1,24 +1,17 @@
 {
-  // ═══════════════════════════════════════════════════════════════
-  // Appearance
-  // ═══════════════════════════════════════════════════════════════
-  
-  // Fonts
-  "editor.fontFamily": "JetBrains Mono, PragmataPro Mono Liga, MonoLisa, Cascadia Code, SF Mono, Fira Code, Ubuntu Mono, monospace",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 20,
-  "editor.fontWeight": "400",
+  "editor.fontWeight": "600",
   "editor.fontLigatures": false,
   "editor.lineHeight": 26,
-  "editor.inlayHints.fontFamily": "PragmataPro",
-  "editor.codeLensFontFamily": "PragmataPro",
-  
-  // Cursor
+  "editor.inlayHints.fontFamily": "JetBrains Mono",
+  "editor.codeLensFontFamily": "JetBrains Mono",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontWeight": 600,
   "editor.cursorStyle": "line-thin",
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "explicit",
   "editor.multiCursorModifier": "ctrlCmd",
-  
-  // UI Elements
   "editor.lineNumbers": "off",
   "editor.minimap.enabled": false,
   "editor.glyphMargin": false,
@@ -32,23 +25,14 @@
   "editor.inlayHints.enabled": "off",
   "editor.stickyScroll.enabled": false,
   "editor.stickyScroll.scrollWithEditor": false,
-  
-  // Scroll
   "editor.scrollBeyondLastLine": true,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.hideCursorInOverviewRuler": true,
   "editor.overviewRulerBorder": false,
-  
-  // Wrapping
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 120,
   "editor.wrappingIndent": "same",
-  
-  // ═══════════════════════════════════════════════════════════════
-  // Behaviour
-  // ═══════════════════════════════════════════════════════════════
-  
   "editor.tabSize": 2,
   "editor.detectIndentation": true,
   "editor.linkedEditing": true,
@@ -57,14 +41,10 @@
   "editor.accessibilitySupport": "off",
   "editor.find.addExtraSpaceOnTop": false,
   "editor.gotoLocation.multipleDefinitions": "goto",
-  
-  // Onsave actions
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always",
     "source.fixAll.stylelint": "always"
   },
-  
-  // Token colors customization
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -95,75 +75,40 @@
       }
     ]
   },
-  
-  // ═══════════════════════════════════════════════════════════════
-  // Interface
-  // ═══════════════════════════════════════════════════════════════
-  
-  "workbench.colorTheme": "August - Kanagawa",
-  "workbench.iconTheme": "flow-dark",
+  "workbench.iconTheme": "flow-dawn",
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": true,
   "workbench.layoutControl.enabled": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.tree.enableStickyScroll": false,
   "workbench.startupEditor": "newUntitledFile",
-  
-  // Tabs
   "workbench.editor.editorActionsLocation": "hidden",
   "workbench.editor.empty.hint": "hidden",
   "workbench.editor.tabActionCloseVisibility": false,
   "workbench.editor.tabSizing": "shrink",
-  
-  // ═══════════════════════════════════════════════════════════════
-  // WINDOW
-  // ═══════════════════════════════════════════════════════════════
-  
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 2,
   "window.commandCenter": false,
   "window.confirmBeforeClose": "keyboardOnly",
   "window.density.editorTabHeight": "compact",
   "window.openFilesInNewWindow": "off",
-  
-  // ═══════════════════════════════════════════════════════════════
-  // ZEN MODE
-  // ═══════════════════════════════════════════════════════════════
-  
   "zenMode.centerLayout": true,
   "zenMode.fullScreen": true,
   "zenMode.hideLineNumbers": true,
   "zenMode.showTabs": "none",
-  
-  // ═══════════════════════════════════════════════════════════════
-  // TERMINAL
-  // ═══════════════════════════════════════════════════════════════
-  
   "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "terminal.integrated.fontFamily": "PragmataPro Liga",
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.scrollback": 10000,
   "terminal.integrated.stickyScroll.enabled": false,
   "terminal.integrated.environmentChangesRelaunch": false,
-  
-  // ═══════════════════════════════════════════════════════════════
-  // EXPLORER
-  // ═══════════════════════════════════════════════════════════════
-  
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
   "explorer.excludeGitIgnore": false,
-  
-  // ═══════════════════════════════════════════════════════════════
-  // FILES
-  // ═══════════════════════════════════════════════════════════════
-  
   "files.eol": "\n",
   "files.defaultLanguage": "plaintext",
-  
   "files.exclude": {
     "**/.cursor": true,
     "**/.idea": true,
@@ -183,40 +128,20 @@
     "**/tsconfig.node.tsbuildinfo": true,
     "**/.husky/_": true
   },
-  
   "files.readonlyInclude": {
     "**/routeTree.gen.ts": true
   },
-  
   "files.watcherExclude": {
     "**/routeTree.gen.ts": true
   },
-  
   "files.associations": {
-    "prepare-commit-msg": "shellscript" // husky precommit
+    "prepare-commit-msg": "shellscript"
   },
-  
-  // ═══════════════════════════════════════════════════════════════
-  // SEARCH
-  // ═══════════════════════════════════════════════════════════════
-  
   "search.exclude": {
     "**/routeTree.gen.ts": true
   },
-  
-  // ═══════════════════════════════════════════════════════════════
-  // NAVIGATION
-  // ═══════════════════════════════════════════════════════════════
-  
   "breadcrumbs.enabled": false,
-  
-  // ═══════════════════════════════════════════════════════════════
-  // ESLINT
-  // ═══════════════════════════════════════════════════════════════
-  
-  "eslint.lintTask.command": "bun eslint", // run ts
-  
-  // Antfu eslint guidlines
+  "eslint.lintTask.command": "bun eslint",
   "eslint.rules.customizations": [
     { "rule": "style/*", "severity": "off", "fixable": true },
     { "rule": "format/*", "severity": "off", "fixable": true },
@@ -229,7 +154,6 @@
     { "rule": "*quotes", "severity": "off", "fixable": true },
     { "rule": "*semi", "severity": "off", "fixable": true }
   ],
-  
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -253,84 +177,30 @@
     "pcss",
     "postcss"
   ],
-  
-  // ═══════════════════════════════════════════════════════════════
-  // TYPESCRIPT
-  // ═══════════════════════════════════════════════════════════════
-  
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.tsserver.maxTsServerMemory": 8192,
-  
-  // ═══════════════════════════════════════════════════════════════
-  // JAVASCRIPT / HTML
-  // ═══════════════════════════════════════════════════════════════
-  
   "javascript.autoClosingTags": true,
   "html.autoClosingTags": true,
-  
-  // ═══════════════════════════════════════════════════════════════
-  // NPM / BUN
-  // ═══════════════════════════════════════════════════════════════
-  
   "npm.packageManager": "bun",
   "npm.scriptRunner": "bun",
   "npm.scriptHover": false,
-  
-  // ═══════════════════════════════════════════════════════════════
-  // CSS
-  // ═══════════════════════════════════════════════════════════════
-  
   "css.lint.unknownAtRules": "ignore",
-  
-  // ═══════════════════════════════════════════════════════════════
-  // GIT
-  // ═══════════════════════════════════════════════════════════════
-  
   "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "always",
-  
-  // ═══════════════════════════════════════════════════════════════
-  // SPELL CHECKER
-  // ═══════════════════════════════════════════════════════════════
-  
   "cSpell.enabled": true,
   "cSpell.autoFormatConfigFile": true,
   "cSpell.language": "en, uk, ru",
-  
-  // ═══════════════════════════════════════════════════════════════
-  // GITHUB COPILOT / CHAT
-  // ═══════════════════════════════════════════════════════════════
-  
-  "github.copilot.nextEditSuggestions.enabled": true,
   "chat.mcp.gallery.enabled": true,
   "chat.viewSessions.orientation": "stacked",
-  "chat.editor.fontFamily": "PragmataPro",
-  
-  // ═══════════════════════════════════════════════════════════════
-  // DEBUG
-  // ═══════════════════════════════════════════════════════════════
-  
+  "chat.editor.fontFamily": "JetBrainsMono",
   "debug.javascript.codelens.npmScripts": "never",
-  "debug.console.fontFamily": "PragmataPro",
-  
-  // ═══════════════════════════════════════════════════════════════
-  // C/C++
-  // ═══════════════════════════════════════════════════════════════
-  
-  "C_Cpp.clang_format_fallbackStyle": "Google",
-  
-  // ═══════════════════════════════════════════════════════════════
-  // DOCKER
-  // ═══════════════════════════════════════════════════════════════
-  
   "docker.extension.dockerEngineAvailabilityPrompt": false,
-  
-  // ═══════════════════════════════════════════════════════════════
-  // SECURITY & TRUST
-  // ═══════════════════════════════════════════════════════════════
-  
   "security.workspace.trust.banner": "never",
   "security.workspace.trust.untrustedFiles": "open",
-
   "extensions.ignoreRecommendations": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "workbench.colorTheme": "Catppuccin Latte"
 }

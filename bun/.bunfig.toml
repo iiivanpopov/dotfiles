@@ -1,8 +1,0 @@
-[install]
-linker = "isolated"
-
-[debug]
-editor = "code"
-
-[run]
-shell = "bun"
