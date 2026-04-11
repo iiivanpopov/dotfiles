@@ -1,0 +1,74 @@
+[
+  {
+    "key": "ctrl+shift+r",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.focusAuxiliaryBar",
+        "antigravity.toggleChatFocus"
+      ]
+    },
+    "when": "!auxiliaryBarFocus"
+  },
+  {
+    "key": "ctrl+shift+r",
+    "command": "workbench.action.closeAuxiliaryBar",
+    "when": "auxiliaryBarFocus"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "editor.action.revealDefinition",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.view.explorer",
+    "when": "!sideBarFocus"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "sideBarFocus"
+  },
+  {
+    "key": "ctrl+shift+r",
+    "command": "-workbench.action.tasks.reRunTask"
+  },
+  {
+    "key": "ctrl+shift+r",
+    "command": "-jupyter.restartkernel",
+    "when": "notebookEditorFocus"
+  },
+  {
+    "key": "ctrl+shift+r",
+    "command": "-antigravity.agent.openDiff",
+    "when": "editorFocus && antigravity.agent.hasDiff"
+  },
+  {
+    "key": "ctrl+shift+r",
+    "command": "-rerun.task.action"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "-workbench.view.explorer",
+    "when": "!sideBarFocus"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "-explorer.openEditors.focus"
+  },
+  {
+    "key": "ctrl+shift+e",
+    "command": "-antigravity.agent.panel.focus"
+  },
+  {
+    "key": "space",
+    "command": "-list.select",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "space",
+    "command": "-explorer.openToSide",
+    "when": "explorerViewletVisible && explorerViewletFocus"
+  }
+]

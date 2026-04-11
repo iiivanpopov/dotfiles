@@ -1,0 +1,83 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-c": "editor::GoToDefinition"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-shift-e": "project_panel::Toggle",
+      "ctrl-shift-r": "agent::Toggle"
+    },
+    "unbind": {
+      "ctrl-b": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-shift-r": [
+        "task::Rerun",
+        {
+          "reevaluate_context": false
+        }
+      ]
+    }
+  },
+  {
+    "context": "Terminal",
+    "unbind": {
+      "ctrl-shift-r": "terminal::RerunTask"
+    }
+  },
+  {
+    "context": "NotebookEditor",
+    "unbind": {
+      "ctrl-shift-r": "notebook::RestartKernel"
+    }
+  },
+  {
+    "context": "NotebookEditor > Editor",
+    "unbind": {
+      "ctrl-shift-r": "notebook::RestartKernel"
+    }
+  },
+  {
+    "context": "Editor && editor_agent_diff",
+    "unbind": {
+      "ctrl-shift-r": "agent::OpenAgentDiff"
+    }
+  },
+  {
+    "context": "AcpThread > Editor",
+    "unbind": {
+      "ctrl-shift-r": "agent::OpenAgentDiff"
+    }
+  },
+  {
+    "context": "!ContextEditor && !AcpThread > Editor && mode == full",
+    "unbind": {
+      "ctrl-shift-e": "pane::RevealInProjectPanel"
+    }
+  },
+  {
+    "context": "AgentPanel",
+    "unbind": {
+      "ctrl-shift-e": "project_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "SettingsWindow",
+    "unbind": {
+      "ctrl-shift-e": "settings_editor::ToggleFocusNav"
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "unbind": {
+      "space": "project_panel::Open"
+    }
+  }
+]

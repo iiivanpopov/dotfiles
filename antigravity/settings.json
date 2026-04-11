@@ -1,11 +1,10 @@
 {
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 1,
-  "window.commandCenter": false,
   "window.confirmBeforeClose": "keyboardOnly",
   "window.density.editorTabHeight": "compact",
-  "workbench.colorTheme": "August - Ariake Dark",
-  "workbench.iconTheme": "flow-deep",
+  "workbench.colorTheme": "Catppuccin Latte",
+  "workbench.iconTheme": "flow-dim",
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": true,
   "workbench.layoutControl.enabled": false,
@@ -67,8 +66,7 @@
   "editor.formatOnSave": false,
   "editor.tabSize": 2,
 
-  "chat.tips.enabled": false,
-    "files.exclude": {
+  "files.exclude": {
     "**/.git": true,
     "**/.tanstack": true,
     "**/node_modules": true,

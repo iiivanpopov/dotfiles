@@ -1,7 +1,7 @@
 {
   "import css module": {
     "prefix": "imcss",
-    "body": ["import styles from './$1.module.css'"],
+    "body": ["import styles from './$1.module.css'"]
   },
   "react functional component": {
     "prefix": "rfc",
@@ -13,9 +13,9 @@
       "    </div>",
       "  )",
       "}"
-    ],
+    ]
   },
-  "React Functional Component with Props": {
+  "react functional component with props": {
     "prefix": "rfcp",
     "body": [
       "export interface $1Props {",
@@ -29,6 +29,6 @@
       "    </div>",
       "  )",
       "}"
-    ],
+    ]
   }
 }
