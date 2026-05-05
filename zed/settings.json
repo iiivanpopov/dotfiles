@@ -1,11 +1,11 @@
 {
   "theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "Catppuccin Latte - No Italics",
-    "dark": "Kanagawa Wave - No Italics"
+    "dark": "Kanagawa Dragon - No Italics"
   },
   "icon_theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "Flow Dim Light",
     "dark": "Flow Deep"
   },
@@ -36,7 +36,9 @@
     "breakpoints": false,
     "folds": false,
     "runnables": false,
-    "min_line_number_digits": null
+    "min_line_number_digits": null,
+    "bookmarks": false,
+    "line_numbers": false
   },
   "tab_size": 2,
   "soft_wrap": "editor_width",
@@ -50,11 +52,13 @@
     "show_user_picture": false,
     "show_onboarding_banner": false,
     "show_project_items": false,
-    "show_branch_name": false,
-    "show_branch_icon": false
+    "show_branch_status_icon": false,
+    "show_menus": false,
+    "show_branch_name": false
   },
   "status_bar": {
     "cursor_position_button": true,
+    "experimental.show": false,
     "line_endings_button": false,
     "active_encoding_button": "disabled",
     "active_language_button": false
@@ -66,7 +70,6 @@
     "selections_menu": false
   },
   "tab_bar": {
-    "show": true,
     "show_nav_history_buttons": false,
     "show_tab_bar_buttons": false
   },
@@ -79,6 +82,7 @@
     "enabled": false
   },
   "project_panel": {
+    "dock": "left",
     "button": false,
     "default_width": 240.0,
     "sort_mode": "directories_first",
@@ -109,8 +113,8 @@
   "collaboration_panel": {
     "button": false
   },
-  "notification_panel": {
-    "button": false
+  "agent": {
+    "button": false,
   },
   "terminal": {
     "button": false,
@@ -137,24 +141,6 @@
       "enabled": false
     }
   },
-  "wsl_connections": [
-    {
-      "distro_name": "Ubuntu-24.04",
-      "user": null,
-      "projects": [
-        {
-          "paths": [
-            "/home/yelai/architect/enshou"
-          ]
-        },
-        {
-          "paths": [
-            "/home/yelai/architect/hive"
-          ]
-        }
-      ]
-    }
-  ],
   "file_scan_exclusions": [
     ".tanstack",
     "node_modules",

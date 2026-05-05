@@ -4,7 +4,7 @@
   "window.commandCenter": false,
   "window.confirmBeforeClose": "keyboardOnly",
   "window.density.editorTabHeight": "compact",
-  "workbench.colorTheme": "August - Ariake Dark",
+  "workbench.colorTheme": "August - Gruvbox",
   "workbench.iconTheme": "flow-deep",
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": true,
@@ -19,12 +19,12 @@
   "security.workspace.trust.banner": "never",
 
   "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 20, 
+  "editor.fontSize": 16,
   "editor.fontWeight": "600",
-  "editor.lineHeight": 0, 
+  "editor.lineHeight": 0,
   "editor.fontLigatures": false,
 
-  "editor.cursorStyle": "line", 
+  "editor.cursorStyle": "block",
   "editor.cursorBlinking": "blink",
   "editor.cursorSmoothCaretAnimation": "off",
   "editor.cursorWidth": 2,
@@ -53,6 +53,8 @@
   "editor.wrappingIndent": "same",
   "editor.scrollBeyondLastLine": true,
 
+  "explorer.compactFolders": false,
+
   "terminal.integrated.fontFamily": "JetBrains Mono",
   "terminal.integrated.fontWeight": "600",
   "terminal.integrated.fontSize": 18,
@@ -67,8 +69,7 @@
   "editor.formatOnSave": false,
   "editor.tabSize": 2,
 
-  "chat.tips.enabled": false,
-    "files.exclude": {
+  "files.exclude": {
     "**/.git": true,
     "**/.tanstack": true,
     "**/node_modules": true,
